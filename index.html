@@ -479,8 +479,114 @@
             </li>
           </ul>
         </div>
+        <form class="form-footer">
+          <label for="form-footer" class="form-footer-label">Subscribe</label>
+          <div class="form-footer-wraper">
+            <input
+              type="email"
+              id="form-footer"
+              class="input-form-footer"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="button-form-footer">
+              Subscribe
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
     <!-- #endregion footer -->
+    <!-- #region backdrop -->
+    <div class="backdrop">
+      <div class="modal">
+        <button type="button" class="close-modal">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="input-wraper">
+          <ul class="modal-list">
+            <li class="input-item">
+              <label for="form-name" class="form-label">Name</label>
+              <div class="input-svg-wraper">
+                <input
+                  type="text"
+                  id="form-name"
+                  class="input-text"
+                  name="name"
+                />
+                <svg width="18" height="24" class="form-icon">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="input-item">
+              <label for="form-phone" class="form-label">Phone</label>
+              <div class="input-svg-wraper">
+                <input
+                  type="tel"
+                  id="form-phone"
+                  class="input-text"
+                  name="phone"
+                />
+                <svg width="18" height="24" class="form-icon">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="input-item">
+              <label for="form-email" class="form-label">Email</label>
+              <div class="input-svg-wraper">
+                <input
+                  type="email"
+                  id="form-email"
+                  class="input-text"
+                  name="email"
+                />
+                <svg width="18" height="24" class="form-icon">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="input-item">
+              <label for="form-comment" class="form-label">Comment</label>
+              <textarea
+                id="form-comment"
+                class="form-comment"
+                name="comment"
+                placeholder="Text input"
+              ></textarea>
+            </li>
+            <li>
+              <div class="privacy-wraper">
+                <input
+                  type="checkbox"
+                  name="form-checkbox"
+                  id="form-checkbox"
+                  class="privacy-checkbox sr-only"
+                />
+                <label for="form-checkbox" class="form-privacy">
+                  <span class="custom-checkbox">
+                    <svg width="10" height="8" class="checkbox-icon">
+                      <use href="./images/icons.svg#icon-check-mark"></use>
+                    </svg>
+                  </span>
+                  I accept the terms and conditions of the
+                  <a href="" class="privacy-acent">Privacy Policy</a></label
+                >
+              </div>
+            </li>
+            <li>
+              <button type="submit" class="button-modal">Send</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+    <!-- #endregion backdrop -->
   </body>
 </html>
