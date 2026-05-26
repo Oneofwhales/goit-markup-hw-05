@@ -479,12 +479,13 @@
             </li>
           </ul>
         </div>
-        <div class="form-footer" id="modal">
-          <form>
+        <div id="modal">
+          <form class="form-footer">
             <p class="title-form">Subscribe</p>
             <label for="form-footer" class="form-footer-label"></label>
             <div class="form-footer-wraper">
               <input
+                name="email"
                 type="email"
                 id="form-footer"
                 class="input-form-footer"
@@ -521,6 +522,7 @@
                   id="form-name"
                   class="input-text"
                   name="name"
+                  required
                 />
                 <svg width="18" height="24" class="form-icon">
                   <use href="./images/icons.svg#icon-person"></use>
@@ -535,6 +537,7 @@
                   id="form-phone"
                   class="input-text"
                   name="phone"
+                  required
                 />
                 <svg width="18" height="24" class="form-icon">
                   <use href="./images/icons.svg#icon-phone"></use>
@@ -549,6 +552,7 @@
                   id="form-email"
                   class="input-text"
                   name="email"
+                  required
                 />
                 <svg width="18" height="24" class="form-icon">
                   <use href="./images/icons.svg#icon-email"></use>
@@ -562,6 +566,7 @@
                 class="form-comment"
                 name="comment"
                 placeholder="Text input"
+                required
               ></textarea>
             </li>
             <li>

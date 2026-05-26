@@ -94,6 +94,9 @@
   width: 264px;
   height: 40px;
   line-height: 2;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.04em;
   background-color: transparent;
   outline: none;
   color: #ffffff;
