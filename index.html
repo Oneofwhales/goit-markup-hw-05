@@ -479,28 +479,31 @@
             </li>
           </ul>
         </div>
-        <form class="form-footer">
-          <label for="form-footer" class="form-footer-label">Subscribe</label>
-          <div class="form-footer-wraper">
-            <input
-              type="email"
-              id="form-footer"
-              class="input-form-footer"
-              placeholder="E-mail"
-            />
-            <button type="submit" class="button-form-footer">
-              Subscribe
-              <svg width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </div>
-        </form>
+        <div class="form-footer" id="modal">
+          <form>
+            <p class="title-form">Subscribe</p>
+            <label for="form-footer" class="form-footer-label"></label>
+            <div class="form-footer-wraper">
+              <input
+                type="email"
+                id="form-footer"
+                class="input-form-footer"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="button-form-footer">
+                Subscribe
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- #endregion footer -->
     <!-- #region backdrop -->
-    <div class="backdrop">
+    <div class="backdrop" id="modal">
       <div class="modal">
         <button type="button" class="close-modal">
           <svg width="8" height="8">
